@@ -1,0 +1,12 @@
+Descriptions of files in the directory:
+
+limitPLOT.C produced the limit plot on the single top plus Higgs production cross section, as a function of the Higgs to diphoton branching ratio.
+The macro uses recent C++ features; it thus needs to be compiled with proper compiler (gccROOT on my machine) and the resulting a.out binary to be execturd to produce the output limitPLOT.pdf
+
+plotLimits_tHqcombo.py is a python script that produced the limits on the Ct=-1 hypothesis, split per channel. The script needs a version of ROOT that allows interface with Python. In my case, I simply ran it on lxplus as my local machine does not have ROOT with Python support.
+
+The RootFiles folder contains the root files needed to run the limits, and are common to both the limits on Ct and the limits on tHq cross section
+
+The CtLimits folder contains the datacard used to compute the limits on Ct
+
+The XsecLimits folder contains the datacards used to compute the limits on the tHq cross sections
