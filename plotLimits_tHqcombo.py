@@ -103,7 +103,7 @@ twosighist.SetFillColor(COLOR2S)
 twosighist.SetFillStyle(1001)
 
 hlab = TH2D("hlab","",len(values),0,len(values),35,0,35)
-hlab.GetYaxis().SetTitle("95% C.L. CL_{S} limit on #sigma/#sigma_{Ct=-1}")
+hlab.GetYaxis().SetTitle("95% CL limit on #sigma/#sigma_{Ct=-1}")
 hlab.GetYaxis().SetTitleOffset(1.15)
 hlab.GetXaxis().SetLabelSize(0.05)
 hlab.GetXaxis().SetTitleSize(0.04)
@@ -127,10 +127,10 @@ for n in range(len(values)):
 
 #  -- Standard legend
 leg = TLegend(0.56,0.56,0.94,0.73)
-leg.AddEntry(obshists[0]," CL_{S} Observed","pl")
-leg.AddEntry(exphists[0]," CL_{S} Expected","l")
-leg.AddEntry(onesighist," #pm 1#sigma CL_{S} exp.","f")
-leg.AddEntry(twosighist," #pm 2#sigma CL_{S} exp.","f")
+leg.AddEntry(obshists[0]," Observed","pl")
+leg.AddEntry(exphists[0]," Expected","l")
+leg.AddEntry(onesighist," #pm 1#sigma exp.","f")
+leg.AddEntry(twosighist," #pm 2#sigma exp.","f")
 leg.SetBorderSize(0)
 leg.SetFillColor(ROOT.kWhite)
 leg.SetTextAlign(13)
@@ -153,7 +153,8 @@ tlatex.SetTextAlign(11)
 tlatex.SetTextFont(63)
 tlatex.DrawLatex(0.12,       0.91, "CMS")
 tlatex.SetTextFont(53)
-tlatex.DrawLatex(0.12+0.085, 0.91, "Preliminary")
+#tlatex.DrawLatex(0.12+0.085, 0.91, "Preliminary")
+
 
 tlatex.SetTextFont(43)
 tlatex.SetTextAlign(31)
