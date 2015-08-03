@@ -387,8 +387,9 @@
    //TText *text2 = pt2->AddText("CMS");
    //pt->Draw();
 
-   //TLatex cmsLabel(0.16, 0.96, "#scale[1.2]{#font[62]{CMS}} #font[52]{Preliminary} ");
-   TLatex cmsLabel(0.16, 0.96, "#scale[1.2]{#font[62]{CMS}}");
+   TLatex cmsLabel(0.16, 0.96, "#scale[1.2]{#font[62]{CMS}} #font[52]{Prelim\
+inary}\
+");
    cmsLabel.SetNDC();
    cmsLabel.SetTextSize(0.04);    cmsLabel.SetTextAlign(11);
 
