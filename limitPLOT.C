@@ -1,6 +1,6 @@
 {
 //=========Macro generated from canvas: canvas/
-//=========  (Tue Jul 14 10:27:56 2015) by ROOT version5.34/23
+//=========  (Mon Aug  3 16:11:33 2015) by ROOT version5.34/23
    TCanvas *canvas = new TCanvas("canvas", "",0,0,1200,1200);
    canvas->SetHighLightColor(2);
    canvas->Range(-0.125,-200,3.625,1800);
@@ -14,7 +14,7 @@
    
    TGraphAsymmErrors *grae = new TGraphAsymmErrors(7);
    grae->SetName("Graph0");
-   grae->SetTitle(";Br(H#rightarrow#gamma#gamma) / Br_{SM}(H#rightarrow#gamma#gamma);95% CL_{s} limit on #sigma (fb)");
+   grae->SetTitle(";Br(H#rightarrow#gamma#gamma) / Br_{SM}(H#rightarrow#gamma#gamma);95% CL limit on #sigma (fb)");
 
    Int_t ci;      // for color index setting
    TColor *color; // for color definition with alpha
@@ -22,18 +22,18 @@
    grae->SetFillColor(ci);
    grae->SetPoint(0,0.5,693);
    grae->SetPointError(0,0,0,233.31,669.9);
-   grae->SetPoint(1,1,635.25);
-   grae->SetPointError(1,0,0,247.17,630.63);
-   grae->SetPoint(2,1.5,577.5);
-   grae->SetPointError(2,0,0,254.1,579.81);
-   grae->SetPoint(3,2,531.3);
-   grae->SetPointError(3,0,0,214.83,508.2);
-   grae->SetPoint(4,2.4,496.65);
-   grae->SetPointError(4,0,0,196.35,462);
-   grae->SetPoint(5,2.7,478.17);
-   grae->SetPointError(5,0,0,189.42,445.83);
-   grae->SetPoint(6,3,441.21);
-   grae->SetPointError(6,0,0,164.01,459.69);
+   grae->SetPoint(1,1,628.32);
+   grae->SetPointError(1,0,0,240.24,621.39);
+   grae->SetPoint(2,1.5,570.57);
+   grae->SetPointError(2,0,0,228.69,563.64);
+   grae->SetPoint(3,2,526.68);
+   grae->SetPointError(3,0,0,210.21,524.37);
+   grae->SetPoint(4,2.4,498.96);
+   grae->SetPointError(4,0,0,198.66,492.03);
+   grae->SetPoint(5,2.7,475.86);
+   grae->SetPointError(5,0,0,187.11,485.1);
+   grae->SetPoint(6,3,443.52);
+   grae->SetPointError(6,0,0,166.32,492.03);
    
    TH1F *Graph_Graph1 = new TH1F("Graph_Graph1","",100,0.25,3.25);
    Graph_Graph1->SetMinimum(0);
@@ -49,7 +49,7 @@
    Graph_Graph1->GetXaxis()->SetTitleSize(0.035);
    Graph_Graph1->GetXaxis()->SetTitleOffset(1.3);
    Graph_Graph1->GetXaxis()->SetTitleFont(42);
-   Graph_Graph1->GetYaxis()->SetTitle("95% CL_{s} limit on #sigma (fb)");
+   Graph_Graph1->GetYaxis()->SetTitle("95% CL limit on #sigma (fb)");
    Graph_Graph1->GetYaxis()->SetLabelFont(42);
    Graph_Graph1->GetYaxis()->SetLabelSize(0.03);
    Graph_Graph1->GetYaxis()->SetTitleSize(0.035);
@@ -71,22 +71,22 @@
    grae->SetFillColor(ci);
    grae->SetPoint(0,0.5,693);
    grae->SetPointError(0,0,0,147.84,330.33);
-   grae->SetPoint(1,1,635.25);
-   grae->SetPointError(1,0,0,180.18,284.13);
-   grae->SetPoint(2,1.5,577.5);
-   grae->SetPointError(2,0,0,157.08,217.14);
-   grae->SetPoint(3,2,531.3);
-   grae->SetPointError(3,0,0,122.43,184.8);
-   grae->SetPoint(4,2.4,496.65);
-   grae->SetPointError(4,0,0,127.05,173.25);
-   grae->SetPoint(5,2.7,478.17);
-   grae->SetPointError(5,0,0,131.67,180.18);
-   grae->SetPoint(6,3,441.21);
-   grae->SetPointError(6,0,0,83.16,214.83);
+   grae->SetPoint(1,1,628.32);
+   grae->SetPointError(1,0,0,164.01,279.51);
+   grae->SetPoint(2,1.5,570.57);
+   grae->SetPointError(2,0,0,154.77,244.86);
+   grae->SetPoint(3,2,526.68);
+   grae->SetPointError(3,0,0,127.05,224.07);
+   grae->SetPoint(4,2.4,498.96);
+   grae->SetPointError(4,0,0,120.12,191.73);
+   grae->SetPoint(5,2.7,475.86);
+   grae->SetPointError(5,0,0,108.57,180.18);
+   grae->SetPoint(6,3,443.52);
+   grae->SetPointError(6,0,0,101.64,187.11);
    
    TH1F *Graph_Graph2 = new TH1F("Graph_Graph2","Graph",100,0.25,3.25);
-   Graph_Graph2->SetMinimum(278.817);
-   Graph_Graph2->SetMaximum(1091.013);
+   Graph_Graph2->SetMinimum(273.735);
+   Graph_Graph2->SetMaximum(1091.475);
    Graph_Graph2->SetDirectory(0);
    Graph_Graph2->SetStats(0);
 
@@ -115,16 +115,16 @@
    graph->SetLineStyle(2);
    graph->SetLineWidth(2);
    graph->SetPoint(0,0.5,693);
-   graph->SetPoint(1,1,635.25);
-   graph->SetPoint(2,1.5,577.5);
-   graph->SetPoint(3,2,531.3);
-   graph->SetPoint(4,2.4,496.65);
-   graph->SetPoint(5,2.7,478.17);
-   graph->SetPoint(6,3,441.21);
+   graph->SetPoint(1,1,628.32);
+   graph->SetPoint(2,1.5,570.57);
+   graph->SetPoint(3,2,526.68);
+   graph->SetPoint(4,2.4,498.96);
+   graph->SetPoint(5,2.7,475.86);
+   graph->SetPoint(6,3,443.52);
    
    TH1F *Graph_Graph1 = new TH1F("Graph_Graph1","Graph",100,0.25,3.25);
-   Graph_Graph1->SetMinimum(416.031);
-   Graph_Graph1->SetMaximum(718.179);
+   Graph_Graph1->SetMinimum(418.572);
+   Graph_Graph1->SetMaximum(717.948);
    Graph_Graph1->SetDirectory(0);
    Graph_Graph1->SetStats(0);
 
@@ -247,7 +247,7 @@
    entry->SetMarkerSize(1);
    entry->SetTextFont(42);
    leg->Draw();
-      tex = new TLatex(0.12,0.91,"#scale[1.2]{#font[62]{CMS}} #font[52]{Preliminary}");
+      tex = new TLatex(0.12,0.91,"#scale[1.2]{#font[62]{CMS}}");
 tex->SetNDC();
    tex->SetTextSize(0.04);
    tex->SetLineWidth(2);
